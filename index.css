@@ -4,6 +4,7 @@
     background-image:url("./作品集/wkw.jpg");
     background-size:cover;
     background-repeat:no-repeat;
+    overflow: hidden;
 }
 
 /* ----------------navbar---------------- */
