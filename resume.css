@@ -1,0 +1,178 @@
+.navbar a:nth-child(5){
+    color: #19f3f7;
+    pointer-events: none;
+    font-weight: 900;
+}
+
+.reTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 30px 80px;
+}
+
+.name{
+    writing-mode: vertical-lr;
+    margin-right: 25px;
+}
+
+.name h1{
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #4E4343;
+    text-shadow: 3px 3px rgb(78, 67, 67,0.25);
+}
+
+.photo{
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.photo img{
+    position: relative;
+    top: 25px;
+}
+
+.intro{
+    margin-left: 30px;
+    width: 350px;
+}
+
+.intro img{
+    position: relative;
+    top: 75px;
+}
+
+.intro p{
+    position: relative;
+    left: 30px;
+    bottom: 120px;
+}
+
+#line1{
+    margin-top: 50px;
+}
+
+.reDown h3{
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+.edu,.work,.activity,.skill{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.edu_left,.work_left,.activityk_left,.skill_left{
+    float: left;
+}
+
+.edu_right,.work_right,.activity_right,.skill_right{
+    float: right;
+    width: 380px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.work_right{
+    height: 500px;
+}
+
+.edu_right p,.work_right p,.activity_right p{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.edu_right span,.work_right span,.skill span{
+    color: #A0A0A0;
+}
+
+.edu_right_words,.work_right_words,.activity_right_words{
+    position: relative;
+    left: 50px;
+    bottom: 325px;
+}
+
+.work_right_words{
+    bottom: 400px;
+}
+
+@media screen and (max-width:768px){
+    .intro{
+        position: relative;
+        bottom: 50px;
+    }
+
+    .photo img{
+        top: 0;
+    }
+
+    #line1{
+        margin-top: 0;
+    }
+
+    .edu,.work,.skill{
+        width: 80%;
+    }
+
+    .edu_right_words,.work_right_words{
+        left: 30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .name{
+        writing-mode: horizontal-tb;
+        margin: 0;
+    }
+
+    .intro{
+        margin-left: 0;
+    }
+
+    .reTop{
+        margin-bottom: 50px;
+    }
+
+    .reDown{
+        margin-left: 30px;
+    }
+
+    #line1{
+        position: relative;
+        top: -50px;
+    }
+
+    .edu_left,.work_left,.skill_left,.edu_right,.work_right,.skill_right{
+        float: none;
+    }
+
+    .edu_right,.work_right,.skill_right{
+        margin-top: 25px;
+    }
+
+    .edu{
+        height: 500px;
+        overflow: hidden;
+        width: 90%;
+    }
+
+    .work{
+        width: 90%;
+    }
+
+    .work_right{
+        height: 1100px;
+    }
+
+    .work_right_words{
+        width: 280px;
+        bottom: 1000px;
+    }
+
+    .skill{
+        margin-top: 0px;
+    }
+}

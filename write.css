@@ -1,0 +1,41 @@
+.navbar a:nth-child(4){
+    color: #19f3f7;
+    pointer-events: none;
+    font-weight: 900;
+}
+
+.article{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.article a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.article a:hover{
+    color: #6d5f5f;
+}
+
+.article iframe{
+    border: 3px solid #6d5f5f;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.art{
+    margin-top: 50px;
+}
+
+.article h3{
+    width: 300px;
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+#art7{
+    margin-top: 25px;
+}

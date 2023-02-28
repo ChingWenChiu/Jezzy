@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Brush;
+    src: url(BRUSHSCI.TTF);
+}
+
+.navbar a:nth-child(3){
+    color: #19f3f7;
+    pointer-events: none;
+    font-weight: 900;
+}
+
+.social{
+    padding: 0 70px;
+}
+
+.social span{
+    font-family: "Brush";
+    font-size: 120px;
+}
+
+.social h2{
+    font-size: 20px;
+    display:inline;
+    position: relative;
+    top:-25px;
+    margin-left: 10px;
+}
+
+#lazy,#berets,#food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.lazy,.berets,.food{
+    margin: 0 20px 50px;
+}
+
+.lazy h4,.berets h4{
+    width: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lazy h4{
+    background-image: linear-gradient(transparent 60%, #F3C1C1 40%);
+}
+
+.berets h4{
+    background-image: linear-gradient(transparent 60%, #65CCD1 40%);
+}
+
+
+@media screen and (max-width:500px){
+    .lazy,.berets,.food{
+        margin: 0 0 30px;
+    }
+
+    #lazy,#berets,#food{
+        width: 326px;
+        margin: 0 auto;
+    }
+
+    .social{
+        padding: 0 15px;
+    }
+
+    .social h2{
+        font-size: 16px;
+    }
+    
+}

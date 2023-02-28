@@ -1,0 +1,45 @@
+.navbar a:nth-child(2){
+    color: #19f3f7;
+    pointer-events: none;
+    font-weight: 900;
+}
+
+
+.photo{
+    padding-top: 20px;
+}
+
+.photo h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.photoBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.photos{
+    width: 400px;
+    margin: 2.5px 5px;
+}
+
+#photo18,#photo21,#photo23{
+    margin-right: 6px;
+}
+
+@media screen and (max-width:500px){
+    .photos{
+        width: 300px;
+    }
+
+    .width100{
+        width: 100%;
+    }
+
+    #photo18{
+        margin-bottom: 5px;
+    }
+}
